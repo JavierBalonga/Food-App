@@ -1,0 +1,48 @@
+.container{
+    position: fixed;
+    top: -140vh;
+    left: calc(10vw - 75vh);
+    width: 150vh;
+    height: 150vh;
+    border: 15vh solid rgba(41, 190, 201, 0.5);
+    border-radius: 50%;
+}
+.container img{
+    height: 25vw;
+    position: absolute;
+    top: calc(50% - 6.25vw);
+    left: calc(50% - 12.5vw);
+    transition: 1s;
+}
+.left{
+    transform: rotate(120deg) translateY(75vh);
+}
+.active{
+    transform: rotate(0deg) translateY(75vh);
+}
+.right{
+    transform: rotate(-120deg) translateY(75vh);
+}
+@media (min-width: 1450px){
+    .container{
+        top: -1600px;
+        left: -600px;
+        width: 1600px;
+        height: 1600px;
+        border: 200px solid rgba(41, 190, 201, 0.5);
+    }
+    .container img{
+        height: 400px;
+        top: calc(50% - 100px);
+        left: calc(50% - 200px);
+    }
+    .left{
+        transform: rotate(120deg) translateY(800px);
+    }
+    .active{
+        transform: rotate(0deg) translateY(800px);
+    }
+    .right{
+        transform: rotate(-120deg) translateY(800px);
+    }
+}

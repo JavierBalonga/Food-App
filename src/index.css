@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://image.freepik.com/foto-gratis/mesa-sobre-fondo-cocina-borrosa_12892-27.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 code {

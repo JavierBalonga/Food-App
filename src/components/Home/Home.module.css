@@ -1,0 +1,17 @@
+.container,.title_selector{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    flex-direction: column;
+    min-height: 100vh;
+}
+.title_selector{
+    flex-direction: column;
+}
+@media(min-width: 1200px) {
+    .container{
+        flex-direction: row;
+    }
+}

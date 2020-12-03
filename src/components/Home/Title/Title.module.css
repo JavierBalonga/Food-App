@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 30vh;
+    width: 70vw;
+    z-index: 1;
+}
+.title{
+    height: 100%;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+    font-size: 7vh;
+    position: relative;
+}
+.title div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    align-self: flex-end;
+}
+.title span{
+    min-width: 50vh;
+    white-space: nowrap;
+    text-align: end;
+}
+.title0{
+    font-weight: 100;
+}
+.title1{
+    font-weight: 700;
+}
+@keyframes open{
+    from {width: 0;}
+    to {width: 100%;}
+}
+@keyframes close{
+    from {width: 100%;}
+    to {width: 0;}
+}

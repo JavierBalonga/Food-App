@@ -1,0 +1,51 @@
+.container{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.container button{
+    width: 5vw;
+    font-size: 10vh;
+    background: none;
+    border: none;
+    transition: .5s;
+    transform: perspective(800px);
+    cursor: pointer;
+}
+.container button:focus{
+    outline: none;
+}
+.container button:hover{
+    transform: perspective(800px) translateZ(100px);
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.food{
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+.food img{
+    height: 100px;
+}
+.selector{
+    position: fixed;
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 20px;
+    width: 120px;
+    height: 200px;
+    transition: 1s;
+    z-index: -1;
+}
+@media(min-width: 1200px) {
+    .container{
+        width: 70vw;
+    }
+}
