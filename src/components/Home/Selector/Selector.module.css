@@ -7,7 +7,6 @@
 }
 .container button{
     width: 5vw;
-    font-size: 10vh;
     background: none;
     border: none;
     transition: .5s;
@@ -18,7 +17,7 @@
     outline: none;
 }
 .container button:hover{
-    transform: perspective(800px) translateZ(100px);
+    transform: perspective(800px) translateZ(150px);
 }
 .content{
     width: 100%;
@@ -46,6 +45,6 @@
 }
 @media(min-width: 1200px) {
     .container{
-        width: 70vw;
+        width: 100%;
     }
 }

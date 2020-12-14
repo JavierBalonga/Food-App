@@ -5,6 +5,8 @@ import Title from './Title/Title';
 import Info from './Info/Info';
 import Selector from './Selector/Selector';
 import fullMenu from '../../data/data';
+import Freezer from './Freezer/Freezer';
+import Table from './Table/Table';
 
 
 export default function Home() {
@@ -46,12 +48,14 @@ export default function Home() {
 
     return (
         <div className={s.container}>
+            <Freezer/>
             <div className={s.title_selector}>
                 <Rotator fullMenu={state.fullMenu} active={state.active}/>
                 <Title title={state.fullMenu[state.active].title}/>
                 <Selector fullMenu={state.fullMenu} active={state.active} onLeft={handleLeft} onRight={handleRight} onSelect={handleSelect}/>
             </div>
             <Info food={state.fullMenu[state.active]}/>
+            <Table/>
         </div>
     );
 };

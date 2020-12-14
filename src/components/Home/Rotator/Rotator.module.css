@@ -1,35 +1,37 @@
 .container{
     position: fixed;
-    top: -140vh;
-    left: calc(10vw - 75vh);
-    width: 150vh;
-    height: 150vh;
-    border: 15vh solid rgba(41, 190, 201, 0.5);
+    top: -1650px;
+    /* left: -500px; */
+    left: calc(44vw - 1033px);
+    width: 1600px;
+    height: 1600px;
+    border: solid rgba(41, 190, 201, 0.5);
+    border-width: 150px;
     border-radius: 50%;
 }
 .container img{
-    height: 25vw;
+    height: 300px;
     position: absolute;
-    top: calc(50% - 6.25vw);
-    left: calc(50% - 12.5vw);
+    top: calc(50% - 75px);
+    left: calc(50% - 150px);
     transition: 1s;
 }
 .left{
-    transform: rotate(120deg) translateY(75vh);
+    transform: rotate(120deg) translateY(800px);
 }
 .active{
-    transform: rotate(0deg) translateY(75vh);
+    transform: rotate(0deg) translateY(800px);
 }
 .right{
-    transform: rotate(-120deg) translateY(75vh);
+    transform: rotate(-120deg) translateY(800px);
 }
-@media (min-width: 1450px){
+@media (min-width: 1200px){
     .container{
         top: -1600px;
-        left: -600px;
+        left: calc(42vw - 1300px);
         width: 1600px;
         height: 1600px;
-        border: 200px solid rgba(41, 190, 201, 0.5);
+        border-width: 200px;
     }
     .container img{
         height: 400px;

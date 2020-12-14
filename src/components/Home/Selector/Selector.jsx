@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import s from './Selector.module.css';
+import { LeftArrow, RightArrow } from '../../../static/arrows';
 
 export default function Selector({fullMenu, active, onLeft, onRight, onSelect}) {
     const content = useRef(null)
@@ -14,7 +15,7 @@ export default function Selector({fullMenu, active, onLeft, onRight, onSelect}) 
     }, [active])
     return (
         <div className={s.container}>
-            <button onClick={onLeft}>{'<'}</button>
+            <button onClick={onLeft}><LeftArrow height={"60px"} /></button>
             <div className={s.content} ref={content}>
                 {
                     fullMenu.map((food, index) => (
@@ -26,7 +27,7 @@ export default function Selector({fullMenu, active, onLeft, onRight, onSelect}) 
                 }
                 <div className={s.selector} ref={selector}/>
             </div>
-            <button onClick={onRight}>{'>'}</button>
+            <button onClick={onRight}><RightArrow height={"60px"} /></button>
         </div>
     );
 };

@@ -1,6 +1,5 @@
 .container,.title_selector{
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 .container{
@@ -8,10 +7,20 @@
     min-height: 100vh;
 }
 .title_selector{
+    width: 100%;
     flex-direction: column;
+    margin-left: 0;
 }
 @media(min-width: 1200px) {
     .container{
         flex-direction: row;
+    }
+    .title_selector{
+        margin-left: calc(28vw - 333px);
+    }
+}
+@media(min-width: 1600px) {
+    .title_selector{
+        margin-right: calc(47vw - 750px);
     }
 }
