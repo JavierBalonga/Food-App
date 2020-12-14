@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/Food-App/static/css/main.1e51f88b.chunk.css",
-    "main.js": "/Food-App/static/js/main.2d0b64e8.chunk.js",
-    "main.js.map": "/Food-App/static/js/main.2d0b64e8.chunk.js.map",
-    "runtime-main.js": "/Food-App/static/js/runtime-main.b5aa0253.js",
-    "runtime-main.js.map": "/Food-App/static/js/runtime-main.b5aa0253.js.map",
-    "static/js/2.776bdce2.chunk.js": "/Food-App/static/js/2.776bdce2.chunk.js",
-    "static/js/2.776bdce2.chunk.js.map": "/Food-App/static/js/2.776bdce2.chunk.js.map",
-    "static/js/3.ea12789a.chunk.js": "/Food-App/static/js/3.ea12789a.chunk.js",
-    "static/js/3.ea12789a.chunk.js.map": "/Food-App/static/js/3.ea12789a.chunk.js.map",
+    "main.css": "/Food-App/static/css/main.bab5e480.chunk.css",
+    "main.js": "/Food-App/static/js/main.43e74253.chunk.js",
+    "main.js.map": "/Food-App/static/js/main.43e74253.chunk.js.map",
+    "runtime-main.js": "/Food-App/static/js/runtime-main.9eb09ddc.js",
+    "runtime-main.js.map": "/Food-App/static/js/runtime-main.9eb09ddc.js.map",
+    "static/js/2.70c5c668.chunk.js": "/Food-App/static/js/2.70c5c668.chunk.js",
+    "static/js/2.70c5c668.chunk.js.map": "/Food-App/static/js/2.70c5c668.chunk.js.map",
+    "static/js/3.ee6dca4b.chunk.js": "/Food-App/static/js/3.ee6dca4b.chunk.js",
+    "static/js/3.ee6dca4b.chunk.js.map": "/Food-App/static/js/3.ee6dca4b.chunk.js.map",
     "index.html": "/Food-App/index.html",
-    "static/css/main.1e51f88b.chunk.css.map": "/Food-App/static/css/main.1e51f88b.chunk.css.map",
-    "static/js/2.776bdce2.chunk.js.LICENSE.txt": "/Food-App/static/js/2.776bdce2.chunk.js.LICENSE.txt",
+    "static/css/main.bab5e480.chunk.css.map": "/Food-App/static/css/main.bab5e480.chunk.css.map",
+    "static/js/2.70c5c668.chunk.js.LICENSE.txt": "/Food-App/static/js/2.70c5c668.chunk.js.LICENSE.txt",
     "static/media/1.2c39286d.png": "/Food-App/static/media/1.2c39286d.png",
     "static/media/2.bfba6738.png": "/Food-App/static/media/2.bfba6738.png",
     "static/media/3.ebeb5734.png": "/Food-App/static/media/3.ebeb5734.png",
     "static/media/4.40446209.png": "/Food-App/static/media/4.40446209.png",
     "static/media/5.856012f0.png": "/Food-App/static/media/5.856012f0.png",
-    "static/media/6.31ee254a.png": "/Food-App/static/media/6.31ee254a.png"
+    "static/media/6.31ee254a.png": "/Food-App/static/media/6.31ee254a.png",
+    "static/media/background.5699cda2.png": "/Food-App/static/media/background.5699cda2.png",
+    "static/media/freezer.d106cee3.png": "/Food-App/static/media/freezer.d106cee3.png",
+    "static/media/table.9b7727e1.png": "/Food-App/static/media/table.9b7727e1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5aa0253.js",
-    "static/js/2.776bdce2.chunk.js",
-    "static/css/main.1e51f88b.chunk.css",
-    "static/js/main.2d0b64e8.chunk.js"
+    "static/js/runtime-main.9eb09ddc.js",
+    "static/js/2.70c5c668.chunk.js",
+    "static/css/main.bab5e480.chunk.css",
+    "static/js/main.43e74253.chunk.js"
   ]
 }
